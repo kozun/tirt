@@ -1,0 +1,19 @@
+{"parametersHost": "localhost:11111",
+"inputs":
+  { "czujnikOpadowInput":{
+    "ip": "127.0.0.1",
+    "port": 10071},
+
+    "czujnikPoziomuInput":{
+    "ip": "127.0.0.1",
+    "port": 10072}
+
+    },
+"outputs":
+  {"wynikPredykcjiOutput":{
+    "ip": "127.0.0.1",
+    "port": 10073
+    }
+
+}
+}

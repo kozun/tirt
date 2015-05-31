@@ -2,37 +2,37 @@
 "stan_początkowy":{
 "Bardo": 70,
 "Boboszów": 0,
-"Bystrzyca Kł": 12,
+"Bystrzyca": 12,
 "Darnków": 673,
-"Duszniki Zdr": 3,
+"Duszniki": 3,
 "Gorzuchów": 44,
 "Kłodzko": 89,
 "Krasnowice": 118,
-"Kudowa Zdr": 215,
-"Lądek Zdr": 50
+"Kudowa Zdr.": 215,
+"Lądek Zdr.": 50
 },
 "stan_alarmowy":{
 "Bardo": 180,
 "Boboszów": 40,
-"Bystrzyca Kł": 110,
+"Bystrzyca": 110,
 "Darnków": 750,
-"Duszniki Zdr": 40,
+"Duszniki": 40,
 "Gorzuchów": 120,
 "Kłodzko": 160,
 "Krasnowice": 170,
-"Kudowa Zdr": 280,
-"Lądek Zdr": 80
+"Kudowa Zdr.": 280,
+"Lądek Zdr.": 80
 },
 "stan_krytyczny":{
 "Bardo": 250,
 "Boboszów": 60,
-"Bystrzyca Kł": 180,
+"Bystrzyca": 180,
 "Darnków": 800,
-"Duszniki Zdr": 60,
+"Duszniki": 60,
 "Gorzuchów": 160,
 "Kłodzko": 240,
 "Krasnowice": 220,
-"Kudowa Zdr": 310,
-"Lądek Zdr": 120
+"Kudowa Zdr.": 310,
+"Lądek Zdr.": 120
 }
 }

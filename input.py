@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
-from ComssServiceDevelopment.connectors.udp.multicast import OutputMulticastConnector
+
 from ComssServiceDevelopment.connectors.tcp.object_connector import OutputObjectConnector
 from ComssServiceDevelopment.development import DevServiceController
 import random
 import json
 
-import dpkt
+
 import time
-import sys
+
 
 service_controller = DevServiceController("alarmService.json")
 service_controller.declare_connection("czujnikOpadowInput", OutputObjectConnector(service_controller))

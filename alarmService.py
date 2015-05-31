@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import threading
-from ComssServiceDevelopment.connectors.tcp.msg_stream_connector import InputMessageConnector, OutputMessageConnector #import modułów konektora msg_stream_connector
+
 from ComssServiceDevelopment.connectors.tcp.object_connector import InputObjectConnector, OutputObjectConnector #import modułów konektora object_connector
 from ComssServiceDevelopment.service import Service, ServiceController #import modułów klasy bazowej Service oraz kontrolera usługi
-import cv2 #import modułu biblioteki OpenCV
-import numpy as np #import modułu biblioteki Numpy
+
 
 class AlarmService(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
     def __init__(self): #"nie"konstruktor, inicjalizator obiektu usługi

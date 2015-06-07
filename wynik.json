@@ -2,81 +2,81 @@
  "Darnków": {
   "stan_krytyczny": 800, 
   "stan_alarmowy": 750, 
-  "przewidywany_poziom": 739.82, 
+  "przewidywany_poziom": 683.82, 
   "klasyfikacja": 1, 
-  "opady": 556.87, 
+  "opady": 90.16, 
   "stan_początkowy": 673
  }, 
  "Kłodzko": {
   "stan_krytyczny": 240, 
   "stan_alarmowy": 160, 
-  "przewidywany_poziom": 119.61, 
+  "przewidywany_poziom": 143.07, 
   "klasyfikacja": 1, 
-  "opady": 255.07, 
+  "opady": 450.57, 
   "stan_początkowy": 89
  }, 
  "Lądek Zdr.": {
   "stan_krytyczny": 120, 
   "stan_alarmowy": 80, 
-  "przewidywany_poziom": 66.11, 
-  "klasyfikacja": 1, 
-  "opady": 134.26, 
+  "przewidywany_poziom": 90.83, 
+  "klasyfikacja": 2, 
+  "opady": 340.27, 
   "stan_początkowy": 50
  }, 
  "Boboszów": {
   "stan_krytyczny": 60, 
   "stan_alarmowy": 40, 
-  "przewidywany_poziom": 20.86, 
-  "klasyfikacja": 1, 
-  "opady": 173.86, 
+  "przewidywany_poziom": 50.34, 
+  "klasyfikacja": 2, 
+  "opady": 419.52, 
   "stan_początkowy": 0
  }, 
  "Kudowa Zdr.": {
   "stan_krytyczny": 310, 
   "stan_alarmowy": 280, 
-  "przewidywany_poziom": 268.51, 
+  "przewidywany_poziom": 231.0, 
   "klasyfikacja": 1, 
-  "opady": 445.94, 
+  "opady": 133.35, 
   "stan_początkowy": 215
  }, 
  "Gorzuchów": {
   "stan_krytyczny": 160, 
   "stan_alarmowy": 120, 
-  "przewidywany_poziom": 53.92, 
+  "przewidywany_poziom": 97.91, 
   "klasyfikacja": 1, 
-  "opady": 82.7, 
+  "opady": 449.28, 
   "stan_początkowy": 44
  }, 
  "Krosnowice": {
   "stan_krytyczny": 220, 
   "stan_alarmowy": 170, 
-  "przewidywany_poziom": 121.7, 
+  "przewidywany_poziom": 160.53, 
   "klasyfikacja": 1, 
-  "opady": 30.81, 
+  "opady": 354.45, 
   "stan_początkowy": 118
  }, 
  "Bystrzyca": {
   "stan_krytyczny": 180, 
   "stan_alarmowy": 110, 
-  "przewidywany_poziom": 44.75, 
+  "przewidywany_poziom": 66.55, 
   "klasyfikacja": 1, 
-  "opady": 272.92, 
+  "opady": 454.55, 
   "stan_początkowy": 12
  }, 
  "Bardo": {
   "stan_krytyczny": 250, 
   "stan_alarmowy": 180, 
-  "przewidywany_poziom": 124.15, 
+  "przewidywany_poziom": 133.18, 
   "klasyfikacja": 1, 
-  "opady": 451.22, 
+  "opady": 526.5, 
   "stan_początkowy": 70
  }, 
  "Duszniki": {
   "stan_krytyczny": 60, 
   "stan_alarmowy": 40, 
-  "przewidywany_poziom": 15.15, 
-  "klasyfikacja": 1, 
-  "opady": 101.24, 
+  "przewidywany_poziom": 62.69, 
+  "klasyfikacja": 3, 
+  "opady": 497.46, 
   "stan_początkowy": 3
  }
 }

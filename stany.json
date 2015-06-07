@@ -1,0 +1,51 @@
+{
+"Bardo":{
+  "stan_początkowy":70,
+  "stan_alarmowy":180,
+  "stan_krytyczny":250
+},
+"Boboszów":{
+  "stan_początkowy":0,
+  "stan_alarmowy":40,
+  "stan_krytyczny":60
+},
+"Bystrzyca":{
+  "stan_początkowy":12,
+  "stan_alarmowy":110,
+  "stan_krytyczny":180
+},
+"Darnków":{
+  "stan_początkowy":673,
+  "stan_alarmowy":750,
+  "stan_krytyczny":800
+},
+"Duszniki":{
+  "stan_początkowy":3,
+  "stan_alarmowy":40,
+  "stan_krytyczny":60
+},
+"Gorzuchów":{
+  "stan_początkowy":44,
+  "stan_alarmowy":120,
+  "stan_krytyczny":160
+},
+"Kłodzko":{
+  "stan_początkowy":89,
+  "stan_alarmowy":160,
+  "stan_krytyczny":240
+},
+"Krosnowice":{
+  "stan_początkowy":118,
+  "stan_alarmowy":170,
+  "stan_krytyczny":220
+},
+"Kudowa Zdr.":{
+  "stan_początkowy":215,
+  "stan_alarmowy":280,
+  "stan_krytyczny":310
+},
+"Lądek Zdr.":{
+  "stan_początkowy":50,
+  "stan_alarmowy":80,
+  "stan_krytyczny":120}
+}

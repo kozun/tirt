@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import threading
-
+import json
 from ComssServiceDevelopment.connectors.tcp.object_connector import InputObjectConnector, OutputObjectConnector #import modułów konektora object_connector
 from ComssServiceDevelopment.service import Service, ServiceController #import modułów klasy bazowej Service oraz kontrolera usługi
 
@@ -28,16 +28,31 @@ class AlarmService(Service): #klasa usługi musi dziedziczyć po ComssServiceDev
         while self.running(): #pętla główna usługi (wątku głównego obsługującego strumień wideo)
             czujnikOpadow = obj_input.read() #odebranie danych z interfejsu wejściowego
             with self.obj_lock: #blokada wątku
-                self.obj = czujnikOpadow #pobranie aktualnej wartości parametru "filtersOn"
+                self.obj = czujnikOpadow #pobranie aktualnej wartości opadow
+            f = open('stany.json', 'r+')
+            baza = json.load(f, encoding='utf-8')
+            wynik = {}
+
 
             #Test działania inputu, czy generowane wartosci opadow sa mniejsze niz 10
             for o, w in self.obj.iteritems():
-                if w < 10:
-                    print w, ' :tak'
-                else:
-                    print w, ' :nie'
+                print baza[unicode(o)]["stan_alarmowy"]
+                wynik[unicode(o)] = {}
+                wynik[unicode(o)][u"stan_początkowy"] = baza[unicode(o)][u"stan_początkowy"]
+                wynik[unicode(o)][u"stan_alarmowy"] = baza[unicode(o)][u"stan_alarmowy"]
+                wynik[unicode(o)][u"stan_krytyczny"] = baza[unicode(o)][u"stan_krytyczny"]
+                wynik[unicode(o)][u"opady"] = round(w, 2)
 
-            wynik_output.send(self.obj) #przesłanie ramki za pomocą interfejsu wyjściowego
+                predykcja = (w/100)*12 + baza[unicode(o)][u"stan_początkowy"]
+                wynik[unicode(o)][u"przewidywany_poziom"] = round(predykcja, 2)
+                if predykcja > baza[unicode(o)][u"stan_krytyczny"]:
+                    wynik[unicode(o)][u"klasyfikacja"] = 3
+                elif predykcja > baza[unicode(o)][u"stan_alarmowy"]:
+                    wynik[unicode(o)][u"klasyfikacja"] = 2
+                else:
+                    wynik[unicode(o)][u"klasyfikacja"] = 1
+
+            wynik_output.send(wynik) #przesłanie ramki za pomocą interfejsu wyjściowego
 
 if __name__=="__main__":
     sc = ServiceController(AlarmService, "alarmService.json") #utworzenie obiektu kontrolera usługi

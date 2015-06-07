@@ -21,7 +21,7 @@ obj={}
 def update_all():
     obj.clear()
     for s in stacje:
-        wartosc = random.random()*200-100
+        wartosc = random.random()*600
         obj[s] = wartosc
     # return obj
     service_controller.get_connection("czujnikOpadowInput").send(obj) #wysłanie wartości parametrow z czujnika

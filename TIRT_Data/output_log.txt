@@ -1,0 +1,51 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 540M   (ID=0xdf4)
+    Vendor:   NVIDIA
+    VRAM:     993 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\ICSharpCode.SharpZipLib.dll (this message is harmless)
+Loading D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\ICSharpCode.SharpZipLib.dll into Unity Child Domain
+- Completed reload, in  0.065 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initialized touch support.
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Dane\Studia\TIRT\gui\TIRT\Builds\TIRT_Data\Managed\System.dll (this message is harmless)
+IsolatedStorageException: Could not find file "D:\Dane\Studia\TIRT\gui\TIRT\Builds\wynik.json"
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Open (System.String path, FileMode mode) [0x00000] in <filename unknown>:0 
+  at ReadingFromFile.ReadJson () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IsolatedStorageException: Could not find file "D:\Dane\Studia\TIRT\gui\TIRT\Builds\wynik.json"
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Open (System.String path, FileMode mode) [0x00000] in <filename unknown>:0 
+  at ReadingFromFile.ReadJson () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IsolatedStorageException: Could not find file "D:\Dane\Studia\TIRT\gui\TIRT\Builds\wynik.json"
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Open (System.String path, FileMode mode) [0x00000] in <filename unknown>:0 
+  at ReadingFromFile.ReadJson () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
